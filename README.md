@@ -1,2 +1,6 @@
 # Acciones de Google y Nike
  
+Los archivos google.csv y nike.csv (descargar archivos de la carpeta datos) tienen el precio de cada acción durante el año 2020, en valores diarios al cierre de operaciones. Escribir un programa que lea y cargue los valores en listas de Python.
+Se deberá comparar gráficamente la evolución de los dos precios. Debido a su dispar valor monetario (Google varía entre 1056 y 1828 dólares por acción, mientras que Nike tienen precios entre 63 y 144 dólares por acción) la comparación de ambas acciones debe realizarse en una escala de precios normalizando cada serie entre cero (el precio mínimo de la serie) y 1 (el precio máximo). De esta manera, resulta el gráfico de la izquierda en la figura siguiente.
+
+Otra manera útil de graficar los valores es calculando la variación porcentual de cada precio respecto a su valor al inicio de la serie. Es decir, si al inicio de la serie (precio[0]) es 10 y el valor siguiente (precio[1]) es 11, se debe graficar el valor 10% que es la variación porcentual entre los dos valores. De esta manera, el gráfico quedaría como la segunda imagen.
