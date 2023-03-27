@@ -24,7 +24,6 @@ anual = []
 for lista in googlelist:
     anual.append(float(lista[-1]))
 
-print (anual)
 soporteanual = min(anual)
 
 repunte = 100*(float(anual[-1])-soporteanual)/soporteanual

@@ -64,7 +64,7 @@ serie4 = valoresgoogleporciento
 
 plt.subplot(1, 2, 1)    # 2 fila, 1 columnas, primer gráfico
 plt.plot(tiempo,serie2, label="Google")
-plt.title('')
+plt.title('Precios normalizados entre 0 y 1')
 plt.grid()
 
 plt.plot(tiempo,serie1, label="Nike")
@@ -75,7 +75,7 @@ plt.legend()
 
 plt.subplot(1, 2, 2)
 plt.plot(tiempo,serie4, label="Google")
-plt.title('porcentaje')
+plt.title('Tasa de variacion como porcentaje del precio inicial')
 plt.grid()
 
 plt.plot(tiempo,serie3, label="Nike")
