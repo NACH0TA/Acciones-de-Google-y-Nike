@@ -64,25 +64,21 @@ serie4 = valoresgoogleporciento
 
 plt.subplot(1, 2, 1)    # 2 fila, 1 columnas, primer gráfico
 plt.plot(tiempo,serie2, label="Google")
-plt.title('Series Google')
+plt.title('')
 plt.grid()
 
 plt.plot(tiempo,serie1, label="Nike")
-plt.title('Series Nike')
-plt.grid()
 
 plt.legend()
 
 #second subplot
 
 plt.subplot(1, 2, 2)
-plt.plot(tiempo,serie4, label="Nike")
-plt.title('Series Nike')
+plt.plot(tiempo,serie4, label="Google")
+plt.title('porcentaje')
 plt.grid()
 
-plt.plot(tiempo,serie3, label="Goggle")
-plt.title('Series Google')
-plt.grid()
+plt.plot(tiempo,serie3, label="Nike")
 
 plt.legend()
 plt.show()
